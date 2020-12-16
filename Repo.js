@@ -18,7 +18,6 @@ export default class Repo extends PureComponent  {
                 <View style={styles.item}>
                     <View style={styles.repo}>
                         <Text>Repo name: {item.name}</Text>
-                        <Text>Description: {item.description}</Text>
                     </View>
                     <View style={styles.repo}>
                         <Text>Owner: {item.owner.login}</Text>
